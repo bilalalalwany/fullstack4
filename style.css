@@ -1,0 +1,46 @@
+.contaner
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.box
+{
+    background-color: tomato;
+    text-align: center;
+
+}
+.box1
+{
+    grid-column: 1/5;
+
+}
+.box3
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5%;
+}
+p
+{
+    background-color: aqua;
+}
+.box4
+{
+    border-radius: 60%;
+}
+.box7
+{
+    grid-column: 1/5;
+    grid-row-start: 2;
+}
+.box8
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+
+
+
